@@ -1,3 +1,5 @@
+package calculadora;
+
 import java.util.Scanner;
 
 public class TesteCalculadora {
@@ -5,7 +7,7 @@ public class TesteCalculadora {
         Calculadora calculadora = new Calculadora();
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Calculadora");
+        System.out.println("calculadora.Calculadora");
         System.out.println("Digite o primeiro numero: ");
         calculadora.numero1 = leitor.nextDouble();
         System.out.println("Digite o segundo numero:");

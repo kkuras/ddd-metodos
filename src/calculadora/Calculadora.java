@@ -1,3 +1,5 @@
+package calculadora;
+
 public class Calculadora {
     // classe de modelagem
     double numero1;
